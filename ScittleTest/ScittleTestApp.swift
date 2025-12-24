@@ -1,6 +1,6 @@
 //
-//  ClojureScriptTestApp.swift
-//  ClojureScriptTest
+//  ScittleTestApp.swift
+//  ScittleTest
 //
 //  Created by Rod Schmidt on 12/15/25.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ClojureScriptTestApp: App {
+struct ScittleTestApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

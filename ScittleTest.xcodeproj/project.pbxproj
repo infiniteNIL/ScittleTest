@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		DCA6A2AA2EF087A600C0F279 /* ClojureScriptTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClojureScriptTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA6A2AA2EF087A600C0F279 /* ScittleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScittleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DCA6A2AC2EF087A600C0F279 /* ClojureScriptTest */ = {
+		DCA6A2AC2EF087A600C0F279 /* ScittleTest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClojureScriptTest;
+			path = ScittleTest;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		DCA6A2A12EF087A600C0F279 = {
 			isa = PBXGroup;
 			children = (
-				DCA6A2AC2EF087A600C0F279 /* ClojureScriptTest */,
+				DCA6A2AC2EF087A600C0F279 /* ScittleTest */,
 				DCA6A2AB2EF087A600C0F279 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		DCA6A2AB2EF087A600C0F279 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCA6A2AA2EF087A600C0F279 /* ClojureScriptTest.app */,
+				DCA6A2AA2EF087A600C0F279 /* ScittleTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCA6A2A92EF087A600C0F279 /* ClojureScriptTest */ = {
+		DCA6A2A92EF087A600C0F279 /* ScittleTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCA6A2B52EF087A700C0F279 /* Build configuration list for PBXNativeTarget "ClojureScriptTest" */;
+			buildConfigurationList = DCA6A2B52EF087A700C0F279 /* Build configuration list for PBXNativeTarget "ScittleTest" */;
 			buildPhases = (
 				DCA6A2A62EF087A600C0F279 /* Sources */,
 				DCA6A2A72EF087A600C0F279 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				DCA6A2AC2EF087A600C0F279 /* ClojureScriptTest */,
+				DCA6A2AC2EF087A600C0F279 /* ScittleTest */,
 			);
-			name = ClojureScriptTest;
+			name = ScittleTest;
 			packageProductDependencies = (
 			);
 			productName = ClojureScriptTest;
-			productReference = DCA6A2AA2EF087A600C0F279 /* ClojureScriptTest.app */;
+			productReference = DCA6A2AA2EF087A600C0F279 /* ScittleTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DCA6A2A52EF087A600C0F279 /* Build configuration list for PBXProject "ClojureScriptTest" */;
+			buildConfigurationList = DCA6A2A52EF087A600C0F279 /* Build configuration list for PBXProject "ScittleTest" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCA6A2A92EF087A600C0F279 /* ClojureScriptTest */,
+				DCA6A2A92EF087A600C0F279 /* ScittleTest */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +255,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C4YH785EG3;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -287,6 +288,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C4YH785EG3;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -313,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCA6A2A52EF087A600C0F279 /* Build configuration list for PBXProject "ClojureScriptTest" */ = {
+		DCA6A2A52EF087A600C0F279 /* Build configuration list for PBXProject "ScittleTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCA6A2B32EF087A700C0F279 /* Debug */,
@@ -322,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCA6A2B52EF087A700C0F279 /* Build configuration list for PBXNativeTarget "ClojureScriptTest" */ = {
+		DCA6A2B52EF087A700C0F279 /* Build configuration list for PBXNativeTarget "ScittleTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCA6A2B62EF087A700C0F279 /* Debug */,
